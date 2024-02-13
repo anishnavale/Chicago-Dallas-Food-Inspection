@@ -1,0 +1,2012 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select stg_DallasFoodInspectionResults_Original.* 
+from stg_DallasFoodInspectionResults_Original</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select stg_DallasFoodInspect...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StgID" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int32" />
+            <Field name="Restaurant Name" size="65" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Inspection Type" size="9" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Inspection Date" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Date" />
+            <Field name="Inspection Score" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Street Number" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int32" />
+            <Field name="Street Name" size="25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Street Direction" size="1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Street Type" size="4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Street Unit" size="5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Street Address" size="36" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Zip Code" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Violation Description - 1" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 1" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 1" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 2" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 2" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 2" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 2" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 3" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 3" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 3" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 3" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 4" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 4" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 4" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 4" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 5" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 5" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 5" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 5" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 6" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 6" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 6" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 7" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 7" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 7" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 7" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 8" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 8" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 8" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 8" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 9" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 9" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 9" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 9" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 10" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 10" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 10" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 11" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 11" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 11" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 11" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 12" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 12" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 12" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 12" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 13" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 13" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 13" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 13" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 14" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 14" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 14" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 14" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 15" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 15" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 15" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 15" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 16" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 16" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 16" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 16" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 17" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 17" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 17" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 17" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 18" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 18" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 18" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 18" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 19" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 19" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 19" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 19" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 20" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 20" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 20" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation  Memo - 20" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 21" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 21" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 21" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 21" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 22" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 22" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 22" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 22" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 23" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 23" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 23" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 23" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 24" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 24" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 24" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 24" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Description - 25" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violation Points - 25" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Int16" />
+            <Field name="Violation Detail - 25" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Violation Memo - 25" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_WString" />
+            <Field name="Inspection Month" size="8" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Inspection Year" size="6" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Lat Long Location" size="59" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="V_String" />
+            <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="41" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="DI_WorkflowDirectory" size="68" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="String" />
+            <Field name="Latitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Double" />
+            <Field name="Longitude" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select stg_DallasFoodInspectionResults_Original.* &#xA;from stg_DallasFoodInspectionResults_Original" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="414" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="342" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="If IsNull([Restaurant Name]) then &quot;No Restaurant Name Present&quot; else [Restaurant Name] endif" field="Restaurant Name" size="65" type="V_String" />
+            <FormulaField expression="If IsNull([Street Address]) then &quot;No Street Address Present&quot; else [Street Address] endif" field="Street Address" size="36" type="V_String" />
+            <FormulaField expression="If IsNull([Zip Code]) then &quot;No Zip Present&quot; else [Zip Code] endif" field="Zip Code" size="10" type="String" />
+            <FormulaField expression="If IsNull([Inspection Date]) then ToDate(&quot;1900-01-01&quot;) else [Inspection Date] endif" field="Inspection Date" size="10" type="Date" />
+            <FormulaField expression="If IsNull([Inspection Type]) then &quot;No Inspection Type Present&quot; else [Inspection Type] endif" field="Inspection Type" size="9" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Restaurant Name = If IsNull([Restaurant Name]) then "No Restaurant Name Present"...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="186" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Restaurant Name" />
+            <Field field="Inspection Type" />
+            <Field field="Inspection Date" />
+            <Field field="Inspection Score" />
+            <Field field="Street Number" />
+            <Field field="Street Name" />
+            <Field field="Street Direction" />
+            <Field field="Street Type" />
+            <Field field="Street Unit" />
+            <Field field="Street Address" />
+            <Field field="Zip Code" />
+            <Field field="Violation Description - 1" />
+            <Field field="Violation Points - 1" />
+            <Field field="Violation Detail - 1" />
+            <Field field="Violation Memo - 1" />
+            <Field field="Violation Description - 2" />
+            <Field field="Violation Points - 2" />
+            <Field field="Violation Detail - 2" />
+            <Field field="Violation Memo - 2" />
+            <Field field="Violation Description - 3" />
+            <Field field="Violation Points - 3" />
+            <Field field="Violation Detail - 3" />
+            <Field field="Violation Memo - 3" />
+            <Field field="Violation Description - 4" />
+            <Field field="Violation Points - 4" />
+            <Field field="Violation Detail - 4" />
+            <Field field="Violation Memo - 4" />
+            <Field field="Violation Description - 5" />
+            <Field field="Violation Points - 5" />
+            <Field field="Violation Detail - 5" />
+            <Field field="Violation Memo - 5" />
+            <Field field="Violation Description - 6" />
+            <Field field="Violation Points - 6" />
+            <Field field="Violation Detail - 6" />
+            <Field field="Violation Memo - 6" />
+            <Field field="Violation Description - 7" />
+            <Field field="Violation Points - 7" />
+            <Field field="Violation Detail - 7" />
+            <Field field="Violation Memo - 7" />
+            <Field field="Violation Description - 8" />
+            <Field field="Violation Points - 8" />
+            <Field field="Violation Detail - 8" />
+            <Field field="Violation Memo - 8" />
+            <Field field="Violation Description - 9" />
+            <Field field="Violation Points - 9" />
+            <Field field="Violation Detail - 9" />
+            <Field field="Violation Memo - 9" />
+            <Field field="Violation Description - 10" />
+            <Field field="Violation Points - 10" />
+            <Field field="Violation Detail - 10" />
+            <Field field="Violation Memo - 10" />
+            <Field field="Violation Description - 11" />
+            <Field field="Violation Points - 11" />
+            <Field field="Violation Detail - 11" />
+            <Field field="Violation Memo - 11" />
+            <Field field="Violation Description - 12" />
+            <Field field="Violation Points - 12" />
+            <Field field="Violation Detail - 12" />
+            <Field field="Violation Memo - 12" />
+            <Field field="Violation Description - 13" />
+            <Field field="Violation Points - 13" />
+            <Field field="Violation Detail - 13" />
+            <Field field="Violation Memo - 13" />
+            <Field field="Violation Description - 14" />
+            <Field field="Violation Points - 14" />
+            <Field field="Violation Detail - 14" />
+            <Field field="Violation Memo - 14" />
+            <Field field="Violation Description - 15" />
+            <Field field="Violation Points - 15" />
+            <Field field="Violation Detail - 15" />
+            <Field field="Violation Memo - 15" />
+            <Field field="Violation Description - 16" />
+            <Field field="Violation Points - 16" />
+            <Field field="Violation Detail - 16" />
+            <Field field="Violation Memo - 16" />
+            <Field field="Violation Description - 17" />
+            <Field field="Violation Points - 17" />
+            <Field field="Violation Detail - 17" />
+            <Field field="Violation Memo - 17" />
+            <Field field="Violation Description - 18" />
+            <Field field="Violation Points - 18" />
+            <Field field="Violation Detail - 18" />
+            <Field field="Violation Memo - 18" />
+            <Field field="Violation Description - 19" />
+            <Field field="Violation Points - 19" />
+            <Field field="Violation Detail - 19" />
+            <Field field="Violation Memo - 19" />
+            <Field field="Violation Description - 20" />
+            <Field field="Violation Points - 20" />
+            <Field field="Violation Detail - 20" />
+            <Field field="Violation  Memo - 20" />
+            <Field field="Violation Description - 21" />
+            <Field field="Violation Points - 21" />
+            <Field field="Violation Detail - 21" />
+            <Field field="Violation Memo - 21" />
+            <Field field="Violation Description - 22" />
+            <Field field="Violation Points - 22" />
+            <Field field="Violation Detail - 22" />
+            <Field field="Violation Memo - 22" />
+            <Field field="Violation Description - 23" />
+            <Field field="Violation Points - 23" />
+            <Field field="Violation Detail - 23" />
+            <Field field="Violation Memo - 23" />
+            <Field field="Violation Description - 24" />
+            <Field field="Violation Points - 24" />
+            <Field field="Violation Detail - 24" />
+            <Field field="Violation Memo - 24" />
+            <Field field="Violation Description - 25" />
+            <Field field="Violation Points - 25" />
+            <Field field="Violation Detail - 25" />
+            <Field field="Violation Memo - 25" />
+            <Field field="Inspection Month" />
+            <Field field="Inspection Year" />
+            <Field field="Lat Long Location" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_9a444f0c7384614d8c3a5b1df451013d~.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_1910a61468be6a4ca44d5b3c69ef71ec~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="3761" y="1097" width="1561" height="417" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>FCT_FoodInspectionViolation</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="True" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="3786" y="1146" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="StgID" selected="True" />
+                <SelectField field="Violation Description - 1" selected="True" />
+                <SelectField field="Violation Points - 1" selected="True" />
+                <SelectField field="Violation Detail - 1" selected="True" />
+                <SelectField field="Violation Memo - 1" selected="True" />
+                <SelectField field="Violation Description - 2" selected="True" />
+                <SelectField field="Violation Points - 2" selected="True" />
+                <SelectField field="Violation Detail - 2" selected="True" />
+                <SelectField field="Violation Memo - 2" selected="True" />
+                <SelectField field="Violation Description - 3" selected="True" />
+                <SelectField field="Violation Points - 3" selected="True" />
+                <SelectField field="Violation Detail - 3" selected="True" />
+                <SelectField field="Violation Memo - 3" selected="True" />
+                <SelectField field="Violation Description - 4" selected="True" />
+                <SelectField field="Violation Points - 4" selected="True" />
+                <SelectField field="Violation Detail - 4" selected="True" />
+                <SelectField field="Violation Memo - 4" selected="True" />
+                <SelectField field="Violation Description - 5" selected="True" />
+                <SelectField field="Violation Points - 5" selected="True" />
+                <SelectField field="Violation Detail - 5" selected="True" />
+                <SelectField field="Violation Memo - 5" selected="True" />
+                <SelectField field="Violation Description - 6" selected="True" />
+                <SelectField field="Violation Points - 6" selected="True" />
+                <SelectField field="Violation Detail - 6" selected="True" />
+                <SelectField field="Violation Memo - 6" selected="True" />
+                <SelectField field="Violation Description - 7" selected="True" />
+                <SelectField field="Violation Points - 7" selected="True" />
+                <SelectField field="Violation Detail - 7" selected="True" />
+                <SelectField field="Violation Memo - 7" selected="True" />
+                <SelectField field="Violation Description - 8" selected="True" />
+                <SelectField field="Violation Points - 8" selected="True" />
+                <SelectField field="Violation Detail - 8" selected="True" />
+                <SelectField field="Violation Memo - 8" selected="True" />
+                <SelectField field="Violation Description - 9" selected="True" />
+                <SelectField field="Violation Points - 9" selected="True" />
+                <SelectField field="Violation Detail - 9" selected="True" />
+                <SelectField field="Violation Memo - 9" selected="True" />
+                <SelectField field="Violation Description - 10" selected="True" />
+                <SelectField field="Violation Points - 10" selected="True" />
+                <SelectField field="Violation Detail - 10" selected="True" />
+                <SelectField field="Violation Memo - 10" selected="True" />
+                <SelectField field="Violation Description - 11" selected="True" />
+                <SelectField field="Violation Points - 11" selected="True" />
+                <SelectField field="Violation Detail - 11" selected="True" />
+                <SelectField field="Violation Memo - 11" selected="True" />
+                <SelectField field="Violation Description - 12" selected="True" />
+                <SelectField field="Violation Points - 12" selected="True" />
+                <SelectField field="Violation Detail - 12" selected="True" />
+                <SelectField field="Violation Memo - 12" selected="True" />
+                <SelectField field="Violation Description - 13" selected="True" />
+                <SelectField field="Violation Points - 13" selected="True" />
+                <SelectField field="Violation Detail - 13" selected="True" />
+                <SelectField field="Violation Memo - 13" selected="True" />
+                <SelectField field="Violation Description - 14" selected="True" />
+                <SelectField field="Violation Points - 14" selected="True" />
+                <SelectField field="Violation Detail - 14" selected="True" />
+                <SelectField field="Violation Memo - 14" selected="True" />
+                <SelectField field="Violation Description - 15" selected="True" />
+                <SelectField field="Violation Points - 15" selected="True" />
+                <SelectField field="Violation Detail - 15" selected="True" />
+                <SelectField field="Violation Memo - 15" selected="True" />
+                <SelectField field="Violation Description - 16" selected="True" />
+                <SelectField field="Violation Points - 16" selected="True" />
+                <SelectField field="Violation Detail - 16" selected="True" />
+                <SelectField field="Violation Memo - 16" selected="True" />
+                <SelectField field="Violation Description - 17" selected="True" />
+                <SelectField field="Violation Points - 17" selected="True" />
+                <SelectField field="Violation Detail - 17" selected="True" />
+                <SelectField field="Violation Memo - 17" selected="True" />
+                <SelectField field="Violation Description - 18" selected="True" />
+                <SelectField field="Violation Points - 18" selected="True" />
+                <SelectField field="Violation Detail - 18" selected="True" />
+                <SelectField field="Violation Memo - 18" selected="True" />
+                <SelectField field="Violation Description - 19" selected="True" />
+                <SelectField field="Violation Points - 19" selected="True" />
+                <SelectField field="Violation Detail - 19" selected="True" />
+                <SelectField field="Violation Memo - 19" selected="True" />
+                <SelectField field="Violation Description - 20" selected="True" />
+                <SelectField field="Violation Points - 20" selected="True" />
+                <SelectField field="Violation Detail - 20" selected="True" />
+                <SelectField field="Violation  Memo - 20" selected="True" />
+                <SelectField field="Violation Description - 21" selected="True" />
+                <SelectField field="Violation Points - 21" selected="True" />
+                <SelectField field="Violation Detail - 21" selected="True" />
+                <SelectField field="Violation Memo - 21" selected="True" />
+                <SelectField field="Violation Description - 22" selected="True" />
+                <SelectField field="Violation Points - 22" selected="True" />
+                <SelectField field="Violation Detail - 22" selected="True" />
+                <SelectField field="Violation Memo - 22" selected="True" />
+                <SelectField field="Violation Description - 23" selected="True" />
+                <SelectField field="Violation Points - 23" selected="True" />
+                <SelectField field="Violation Detail - 23" selected="True" />
+                <SelectField field="Violation Memo - 23" selected="True" />
+                <SelectField field="Violation Description - 24" selected="True" />
+                <SelectField field="Violation Points - 24" selected="True" />
+                <SelectField field="Violation Detail - 24" selected="True" />
+                <SelectField field="Violation Memo - 24" selected="True" />
+                <SelectField field="Violation Description - 25" selected="True" />
+                <SelectField field="Violation Points - 25" selected="True" />
+                <SelectField field="Violation Detail - 25" selected="True" />
+                <SelectField field="Violation Memo - 25" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="4626" y="1338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([ViolationCode1], &quot;^\*\s*&quot;, &quot;&quot;)" field="ViolationCode1" size="4000" type="V_WString" />
+                <FormulaField expression="REGEX_Replace([Violation_Description], &quot;^\*\s*\d+\s*&quot;, &quot;&quot;)" field="Violation_Description" size="4000" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ViolationCode1 = REGEX_Replace([ViolationCode1], "^\*\s*", "")
+Violation_Descrip...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="4770" y="1338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="StgID" selected="True" />
+                <SelectField field="ViolationInstance" selected="False" />
+                <SelectField field="ViolationCode1" selected="True" rename="ViolationCode" type="V_String" size="50" />
+                <SelectField field="Violation_Description" selected="True" />
+                <SelectField field="Violation_Detail" selected="True" />
+                <SelectField field="Violation_Memo" selected="True" />
+                <SelectField field="Violation_Points" selected="True" type="Int16" size="2" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="4962" y="1338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF IsNull([Violation_Description]) or [Violation_Description]=&quot;&quot;  THEN &quot;No Violation Description Present&quot; ELSE [Violation_Description] ENDIF" field="Violation_Description" size="4000" type="V_WString" />
+                <FormulaField expression="IF IsNull([Violation_Detail]) or [Violation_Detail]=&quot;&quot;  THEN &quot;No Violation Detail Present&quot; ELSE [Violation_Detail] ENDIF" field="Violation_Detail" size="4000" type="V_WString" />
+                <FormulaField expression="IF IsNull([Violation_Memo]) or [Violation_Memo]=&quot;&quot; THEN &quot;No Violation Memo Present&quot; ELSE [Violation_Memo] ENDIF" field="Violation_Memo" size="4000" type="V_WString" />
+                <FormulaField expression="IF IsNull([Violation_Points])  THEN -999 ELSE [Violation_Points] ENDIF" field="Violation_Points" size="2" type="Int16" />
+                <FormulaField expression="IF IsNull([ViolationCode]) or [ViolationCode]=&quot;&quot; THEN &quot;No Violation Code Present&quot; ELSE [ViolationCode] ENDIF" field="ViolationCode" size="50" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Violation_Description = IF IsNull([Violation_Description]) or [Violation_Descrip...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="4230" y="1170" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_10464_597883b8ece42c43b91b2e5e105364e4_\Engine_10464_82c21b6c0d41d843bf0b6e8e66199fac~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="3978" y="1218" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Warn</ErrorWarn>
+              <KeyFields>
+                <Field field="StgID" />
+              </KeyFields>
+              <DataFields>
+                <Field field="StgID" selected="False" />
+                <Field field="Violation Description - 1" selected="True" />
+                <Field field="Violation Points - 1" selected="True" />
+                <Field field="Violation Detail - 1" selected="True" />
+                <Field field="Violation Memo - 1" selected="True" />
+                <Field field="Violation Description - 2" selected="True" />
+                <Field field="Violation Points - 2" selected="True" />
+                <Field field="Violation Detail - 2" selected="True" />
+                <Field field="Violation Memo - 2" selected="True" />
+                <Field field="Violation Description - 3" selected="True" />
+                <Field field="Violation Points - 3" selected="True" />
+                <Field field="Violation Detail - 3" selected="True" />
+                <Field field="Violation Memo - 3" selected="True" />
+                <Field field="Violation Description - 4" selected="True" />
+                <Field field="Violation Points - 4" selected="True" />
+                <Field field="Violation Detail - 4" selected="True" />
+                <Field field="Violation Memo - 4" selected="True" />
+                <Field field="Violation Description - 5" selected="True" />
+                <Field field="Violation Points - 5" selected="True" />
+                <Field field="Violation Detail - 5" selected="True" />
+                <Field field="Violation Memo - 5" selected="True" />
+                <Field field="Violation Description - 6" selected="True" />
+                <Field field="Violation Points - 6" selected="True" />
+                <Field field="Violation Detail - 6" selected="True" />
+                <Field field="Violation Memo - 6" selected="True" />
+                <Field field="Violation Description - 7" selected="True" />
+                <Field field="Violation Points - 7" selected="True" />
+                <Field field="Violation Detail - 7" selected="True" />
+                <Field field="Violation Memo - 7" selected="True" />
+                <Field field="Violation Description - 8" selected="True" />
+                <Field field="Violation Points - 8" selected="True" />
+                <Field field="Violation Detail - 8" selected="True" />
+                <Field field="Violation Memo - 8" selected="True" />
+                <Field field="Violation Description - 9" selected="True" />
+                <Field field="Violation Points - 9" selected="True" />
+                <Field field="Violation Detail - 9" selected="True" />
+                <Field field="Violation Memo - 9" selected="True" />
+                <Field field="Violation Description - 10" selected="True" />
+                <Field field="Violation Points - 10" selected="True" />
+                <Field field="Violation Detail - 10" selected="True" />
+                <Field field="Violation Memo - 10" selected="True" />
+                <Field field="Violation Description - 11" selected="True" />
+                <Field field="Violation Points - 11" selected="True" />
+                <Field field="Violation Detail - 11" selected="True" />
+                <Field field="Violation Memo - 11" selected="True" />
+                <Field field="Violation Description - 12" selected="True" />
+                <Field field="Violation Points - 12" selected="True" />
+                <Field field="Violation Detail - 12" selected="True" />
+                <Field field="Violation Memo - 12" selected="True" />
+                <Field field="Violation Description - 13" selected="True" />
+                <Field field="Violation Points - 13" selected="True" />
+                <Field field="Violation Detail - 13" selected="True" />
+                <Field field="Violation Memo - 13" selected="True" />
+                <Field field="Violation Description - 14" selected="True" />
+                <Field field="Violation Points - 14" selected="True" />
+                <Field field="Violation Detail - 14" selected="True" />
+                <Field field="Violation Memo - 14" selected="True" />
+                <Field field="Violation Description - 15" selected="True" />
+                <Field field="Violation Points - 15" selected="True" />
+                <Field field="Violation Detail - 15" selected="True" />
+                <Field field="Violation Memo - 15" selected="True" />
+                <Field field="Violation Description - 16" selected="True" />
+                <Field field="Violation Points - 16" selected="True" />
+                <Field field="Violation Detail - 16" selected="True" />
+                <Field field="Violation Memo - 16" selected="True" />
+                <Field field="Violation Description - 17" selected="True" />
+                <Field field="Violation Points - 17" selected="True" />
+                <Field field="Violation Detail - 17" selected="True" />
+                <Field field="Violation Memo - 17" selected="True" />
+                <Field field="Violation Description - 18" selected="True" />
+                <Field field="Violation Points - 18" selected="True" />
+                <Field field="Violation Detail - 18" selected="True" />
+                <Field field="Violation Memo - 18" selected="True" />
+                <Field field="Violation Description - 19" selected="True" />
+                <Field field="Violation Points - 19" selected="True" />
+                <Field field="Violation Detail - 19" selected="True" />
+                <Field field="Violation Memo - 19" selected="True" />
+                <Field field="Violation Description - 20" selected="True" />
+                <Field field="Violation Points - 20" selected="True" />
+                <Field field="Violation Detail - 20" selected="True" />
+                <Field field="Violation  Memo - 20" selected="True" />
+                <Field field="Violation Description - 21" selected="True" />
+                <Field field="Violation Points - 21" selected="True" />
+                <Field field="Violation Detail - 21" selected="True" />
+                <Field field="Violation Memo - 21" selected="True" />
+                <Field field="Violation Description - 22" selected="True" />
+                <Field field="Violation Points - 22" selected="True" />
+                <Field field="Violation Detail - 22" selected="True" />
+                <Field field="Violation Memo - 22" selected="True" />
+                <Field field="Violation Description - 23" selected="True" />
+                <Field field="Violation Points - 23" selected="True" />
+                <Field field="Violation Detail - 23" selected="True" />
+                <Field field="Violation Memo - 23" selected="True" />
+                <Field field="Violation Description - 24" selected="True" />
+                <Field field="Violation Points - 24" selected="True" />
+                <Field field="Violation Detail - 24" selected="True" />
+                <Field field="Violation Memo - 24" selected="True" />
+                <Field field="Violation Description - 25" selected="True" />
+                <Field field="Violation Points - 25" selected="True" />
+                <Field field="Violation Detail - 25" selected="True" />
+                <Field field="Violation Memo - 25" selected="True" />
+                <Field field="*Unknown" selected="False" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="4074" y="1218" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="REGEX_Replace([Name],&quot;[^\d]&quot;,&quot;&quot;)" field="ViolationInstance" size="1073741823" type="V_WString" />
+                <FormulaField expression="IF Contains([Name], &quot;Violation Description&quot;) THEN &quot;Violation Description&quot; &#xA;ELSEIF Contains([Name], &quot;Violation Points&quot;) THEN &quot;Violation Points&quot; &#xA;ELSEIF Contains([Name], &quot;Violation Detail&quot;) THEN &quot;Violation Detail&quot; &#xA;ELSEIF Contains([Name], &quot;Violation Memo&quot;) THEN &quot;Violation Memo&quot; &#xA;ELSEIF Contains([Name], &quot;Violation  Memo&quot;) THEN &quot;Violation Memo&quot; &#xA;ELSE &quot;&quot; ENDIF" field="Name" size="26" type="String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ViolationInstance = REGEX_Replace([Name],"[^\d]","")
+Name = IF Contains([Name], ...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+            <Position x="4242" y="1338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <GroupFields>
+                <Field field="StgID" />
+                <Field field="ViolationInstance" />
+              </GroupFields>
+              <HeaderField field="Name" />
+              <DataField field="Value" />
+              <Methods>
+                <Method method="Concat" />
+                <Separator>
+                </Separator>
+                <FieldSize value="4000" />
+              </Methods>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="StgID" source="CrossTab:Group:Concat:" type="Int32" />
+                <Field name="ViolationInstance" size="1073741823" source="CrossTab:Group:Concat:" type="V_WString" />
+                <Field name="Violation_Description" size="4000" source="CrossTab:Header:Name:Violation Description:Concat:" type="V_WString" />
+                <Field name="Violation_Detail" size="4000" source="CrossTab:Header:Name:Violation Detail:Concat:" type="V_WString" />
+                <Field name="Violation_Memo" size="4000" source="CrossTab:Header:Name:Violation Memo:Concat:" type="V_WString" />
+                <Field name="Violation_Points" size="4000" source="CrossTab:Header:Name:Violation Points:Concat:" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="4362" y="1338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Violation_Description]="" and
+[Violation_Detail]="" and
+[Violation_Memo]="" and
+[Violation_Points] = ""</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Violation_Description]="" and
+[Violation_Detail]="" and
+[Violation_Memo]="" and...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="10">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+            <Position x="4482" y="1338" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>Violation_Description</Field>
+              <RegExExpression value="^\*\s*\d+" />
+              <CaseInsensitve value="True" />
+              <Method>ParseSimple</Method>
+              <Replace expression="">
+                <CopyUnmatched value="False" />
+              </Replace>
+              <ParseSimple>
+                <SplitToRows value="False" />
+                <RootName>ViolationCode</RootName>
+                <NumFields value="1" />
+                <ErrorHandling>Warn</ErrorHandling>
+              </ParseSimple>
+              <ParseComplex>
+                <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+              </ParseComplex>
+              <Match>
+                <Field>ViolationInstance_Matched</Field>
+                <ErrorUnmatched value="False" />
+              </Match>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="5238" y="1242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_11672_089a25db0af86f4b916ce1870a3b9c0c_\Engine_11672_2420c1a9081c1645acd598d83fac98b5~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="4350" y="1290" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_11672_089a25db0af86f4b916ce1870a3b9c0c_\Engine_11672_e908b978618c2b46a992421b6a3b62d5~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="4782" y="1386" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile />
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="711" y="160" width="1476" height="1322" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>FCT_FoodInspection</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+            <Position x="1230" y="918" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <JoinByRecPos value="False" />
+              <JoinFields>
+                <JoinInfo connection="#1">
+                  <Field field="StgID" />
+                </JoinInfo>
+                <JoinInfo connection="#2">
+                  <Field field="StgID" />
+                </JoinInfo>
+                <JoinInfo connection="#3">
+                  <Field field="StgID" />
+                </JoinInfo>
+              </JoinFields>
+              <CartesianMode>Error</CartesianMode>
+              <OutputJoinOnly value="False" />
+              <SelectConfiguration>
+                <Configuration outputConnection="Output">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Input_#2_StgID" selected="True" rename="Input_#2_StgID" />
+                    <SelectField field="Input_#3_StgID" selected="True" rename="Input_#3_StgID" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="2058" y="942" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_f5f2045dced5344d82ca3467a4fe1388~.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profile</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1326" y="906" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="-999" field="ResultSK" size="1073741823" type="V_WString" />
+                <FormulaField expression="-999" field="RiskSK" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[ResultSK = -999
+RiskSK = -999
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1470" y="1026" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+                <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_Workflow_Directory" size="1000" type="V_WString" />
+                <FormulaField expression="[Engine.WorkflowFileName]" field="DI_Workflow_FileName" size="1000" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_Workflow_Directory = [Engine.WorkflowDirectory]...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="736" y="209" width="397" height="372" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Find RestaurantSK</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="25">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="857" y="318" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="Restaurant Name" />
+                    <Field field="Street Address" />
+                    <Field field="Zip Code" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="Restaurant_Name1" />
+                    <Field field="StreetAddress" />
+                    <Field field="Zip" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" input="Right_" />
+                        <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" input="Right_" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="26">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+                <Position x="761" y="390" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Passwords />
+                  <CachedCosmeticName />
+                  <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,
+	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,
+	Dim_Foodplaces.StreetAddress,
+	Dim_Foodplaces.City,
+	Dim_Foodplaces.State,
+	Dim_Foodplaces.Zip,
+	Dim_Foodplaces.LicenseSK,
+	Dim_Foodplaces.FacilityType,
+	Dim_Foodplaces.AKA_Name 
+from Dim_Foodplaces 
+where Dim_Foodplaces.City = 'Dallas'</File>
+                  <FormatSpecificOptions>
+                    <SingleRowFetch>False</SingleRowFetch>
+                    <ReadCentroids>False</ReadCentroids>
+                    <TableStyle>Quoted</TableStyle>
+                    <CacheData>False</CacheData>
+                    <SessionReadOnly>True</SessionReadOnly>
+                    <ReadUncommitted>False</ReadUncommitted>
+                    <NoProgress>True</NoProgress>
+                    <PostSQL />
+                    <PreSQLOnConfig>True</PreSQLOnConfig>
+                    <PreSQL />
+                  </FormatSpecificOptions>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_Foodplaces.Restau...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Restaurant_Name1" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="V_String" />
+                    <Field name="FoodPlacesSK1" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="Int32" />
+                    <Field name="StreetAddress" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="V_String" />
+                    <Field name="City" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="V_String" />
+                    <Field name="State" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="V_String" />
+                    <Field name="Zip" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="V_String" />
+                    <Field name="LicenseSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="Int32" />
+                    <Field name="FacilityType" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="V_String" />
+                    <Field name="AKA_Name" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_Foodplaces.Restaurant_Name as Restaurant_Name1,&#xA;	Dim_Foodplaces.FoodPlacesSK as FoodPlacesSK1,&#xA;	Dim_Foodplaces.StreetAddress,&#xA;	Dim_Foodplaces.City,&#xA;	Dim_Foodplaces.State,&#xA;	Dim_Foodplaces.Zip,&#xA;	Dim_Foodplaces.LicenseSK,&#xA;	Dim_Foodplaces.FacilityType,&#xA;	Dim_Foodplaces.AKA_Name &#xA;from Dim_Foodplaces &#xA;where Dim_Foodplaces.City = 'Dallas'" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+            </Node>
+            <Node ToolID="27">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1049" y="318" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_eec28a91fcf7e94fb65e683cf00457d3~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="28">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="917" y="258" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_3951558c8bc7f342bf1b3ee5277c8dad~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="29">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="965" y="366" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_8156d160d0270741b9f6aaa9ff8fb172~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="30">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="965" y="318" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="StgID" selected="True" />
+                    <SelectField field="Inspection Score" selected="True" />
+                    <SelectField field="Inspection Year" selected="True" rename="InspectionFYYear" />
+                    <SelectField field="FoodPlacesSK1" selected="True" rename="FoodPlacesSK" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="737" y="629" width="385" height="372" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Find InspectionDateSK</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="32">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="858" y="738" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="Inspection Date" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="full_date_ak" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" input="Right_" />
+                        <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" input="Right_" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="33">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+                <Position x="762" y="810" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Passwords />
+                  <CachedCosmeticName />
+                  <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* 
+from DIM_Date</File>
+                  <FormatSpecificOptions>
+                    <SingleRowFetch>False</SingleRowFetch>
+                    <ReadCentroids>False</ReadCentroids>
+                    <TableStyle>Quoted</TableStyle>
+                    <CacheData>False</CacheData>
+                    <SessionReadOnly>True</SessionReadOnly>
+                    <ReadUncommitted>False</ReadUncommitted>
+                    <NoProgress>True</NoProgress>
+                    <PostSQL />
+                    <PreSQLOnConfig>True</PreSQLOnConfig>
+                    <PreSQL />
+                  </FormatSpecificOptions>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select DIM_Date.* 
+from DIM...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="date_sk" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+                    <Field name="full_date_ak" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Date" />
+                    <Field name="day_number_of_week" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+                    <Field name="day_name_of_week" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="V_WString" />
+                    <Field name="day_number_of_month" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+                    <Field name="day_number_of_year" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+                    <Field name="week_number_of_year" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+                    <Field name="month_name" size="10" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="V_WString" />
+                    <Field name="month_number_of_year" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+                    <Field name="calendar_quarter" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+                    <Field name="calendar_year" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select DIM_Date.* &#xA;from DIM_Date" type="Int16" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+            </Node>
+            <Node ToolID="34">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1038" y="738" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_89eac3d7dfbccd4c9308dbdca22ef1db~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="35">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="918" y="678" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_e8ee114ac19d2347b5de2e31cddbc0a1~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="36">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="966" y="786" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_89eac3d7dfbccd4c9308dbdca22ef1db~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="37">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="954" y="738" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="StgID" selected="True" />
+                    <SelectField field="date_sk" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="737" y="1073" width="385" height="384" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Find InspectionTypeSK</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="39">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="858" y="1194" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="Inspection Type" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="InspectionType" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <CommaDecimal value="False" />
+                      <SelectFields>
+                        <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" input="Right_" />
+                        <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" input="Right_" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="40">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+                <Position x="762" y="1266" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Passwords />
+                  <CachedCosmeticName />
+                  <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_InspectionType.* 
+from Dim_InspectionType</File>
+                  <FormatSpecificOptions>
+                    <SingleRowFetch>False</SingleRowFetch>
+                    <ReadCentroids>False</ReadCentroids>
+                    <TableStyle>Quoted</TableStyle>
+                    <CacheData>False</CacheData>
+                    <SessionReadOnly>True</SessionReadOnly>
+                    <ReadUncommitted>False</ReadUncommitted>
+                    <NoProgress>True</NoProgress>
+                    <PostSQL />
+                    <PreSQLOnConfig>True</PreSQLOnConfig>
+                    <PreSQL />
+                  </FormatSpecificOptions>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_InspectionType.*...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="InspectionTypeSK" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="Int32" />
+                    <Field name="InspectionType" size="255" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="V_String" />
+                    <Field name="DI_CreateDate" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="DateTime" />
+                    <Field name="DI_WorkflowFileName" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="V_WString" />
+                    <Field name="DI_WorkflowDirectory" size="16777216" source="File: odbc:DRIVER={ODBC Driver 17 for SQL Server};UID=sa;PWD=__EncPwd1__;DATABASE=foodinspection;SERVER=localhost|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+            </Node>
+            <Node ToolID="41">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="1038" y="1194" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_6abf30fda0cb334daedd2e446834f1a8~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="42">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="918" y="1122" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_31a6567655c1e44587384b227e070e53~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="43">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+                <Position x="966" y="1242" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_7316_f132464313fa094db4e3a1fc9e0502e8_\Engine_7316_c1e6cc04453f894f8adc59daeb701414~.yxdb</TempFile>
+                  <TempFileDataProfiling />
+                  <Layout>
+                    <ViewMode>Single</ViewMode>
+                    <ViewSize value="100" />
+                    <View1>
+                      <DefaultTab>Profile</DefaultTab>
+                      <Hints>
+                        <Table />
+                      </Hints>
+                    </View1>
+                    <View2 />
+                  </Layout>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+            </Node>
+            <Node ToolID="44">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="942" y="1194" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="StgID" selected="True" />
+                    <SelectField field="InspectionTypeSK" selected="True" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="56">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1926" y="1038" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="StgID" selected="False" />
+                <SelectField field="FoodPlacesSK" selected="True" />
+                <SelectField field="date_sk" selected="True" rename="InspectionDateSK" />
+                <SelectField field="ResultSK" selected="True" />
+                <SelectField field="RiskSK" selected="True" />
+                <SelectField field="Inspection Score" selected="True" />
+                <SelectField field="InspectionTypeSK" selected="True" />
+                <SelectField field="InspectionFYYear" selected="True" />
+                <SelectField field="Input_#2_StgID" selected="False" />
+                <SelectField field="Input_#3_StgID" selected="False" />
+                <SelectField field="InspectionSK" selected="False" />
+                <SelectField field="DI_CreateDate" selected="True" />
+                <SelectField field="DI_Workflow_Directory" selected="True" />
+                <SelectField field="DI_Workflow_FileName" selected="True" />
+                <SelectField field="InspectionDateSK" selected="False" />
+                <SelectField field="InspectionId" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="2058" y="1026" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:LocalSQLServer - sa/foodinspection|||Fct_FoodInspection</File>
+              <Passwords />
+              <CachedCosmeticName />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Append</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="FoodPlacesSK" Dest="FoodPlacesSK" />
+                    <Field Source="InspectionDateSK" Dest="InspectionDateSK" />
+                    <Field Source="ResultSK" Dest="ResultSK" />
+                    <Field Source="RiskSK" Dest="RiskSK" />
+                    <Field Source="Inspection Score" Dest="InspectionScore" />
+                    <Field Source="InspectionTypeSK" Dest="InspectionTypeSK" />
+                    <Field Source="InspectionFYYear" Dest="InspectionFYYear" />
+                    <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                    <Field Source="DI_Workflow_Directory" Dest="DI_WorkflowDirectory" />
+                    <Field Source="DI_Workflow_FileName" Dest="DI_WorkflowFileName" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=Fct_FoodInspection</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+        <Node ToolID="84">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1794" y="1038" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="-999" field="InspectionId" size="4" type="Int32" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[InspectionId = -999
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="81" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="25" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="25" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="32" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="32" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="77" Connection="Output" />
+      <Destination ToolID="39" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="39" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="77" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Unique" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Duplicates" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="81" Connection="Unique" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="False" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="84" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Left" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Right" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Left" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Right" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Join" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Left" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Right" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Join" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Dallas_FCT_FoodInspection_ETL</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a4069cf6-62c5-4f53-ac64-af0661364298" />
+      <Telemetry>
+        <PreviousWorkflowId value="3b5bfaea-28b5-4be1-864e-0112253d8f66" />
+        <OriginWorkflowId value="3b5bfaea-28b5-4be1-864e-0112253d8f66" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

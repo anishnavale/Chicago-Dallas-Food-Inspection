@@ -1,0 +1,351 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>15000</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Datatset_ChicagoFoodInspection.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="DBA Name" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="AKA Name" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="License #" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Facility Type" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Risk" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Address" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="City" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="State" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Zip" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Inspection Date" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Inspection Type" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Results" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Violations" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Latitude" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Longitude" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+            <Field name="Location" size="15000" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="258" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Inspection ID" selected="True" />
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="License #" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="Int32" />
+            <Field name="DBA Name" size="79" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="AKA Name" size="79" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="License #" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="Int32" />
+            <Field name="Facility Type" size="47" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="Risk" size="15" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="String" />
+            <Field name="Address" size="51" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="City" size="20" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="State" size="2" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="String" />
+            <Field name="Zip" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="String" />
+            <Field name="Inspection Type" size="41" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="Results" size="20" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="Violations" size="11620" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="V_String" />
+            <Field name="Latitude" size="18" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="String" />
+            <Field name="Longitude" size="18" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="String" />
+            <Field name="Location" size="40" source="File: D:\AdityaKawale\DAMG 7370\Alteryx\FoodInspectionCombined\Datatset_ChicagoFoodInspection.tsv" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="DBA Name" selected="True" size="255" />
+            <SelectField field="AKA Name" selected="True" size="255" />
+            <SelectField field="License #" selected="True" />
+            <SelectField field="Facility Type" selected="True" size="100" />
+            <SelectField field="Risk" selected="True" type="V_String" size="50" />
+            <SelectField field="Address" selected="True" size="255" />
+            <SelectField field="City" selected="True" size="50" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" />
+            <SelectField field="Inspection Date" selected="True" type="V_String" size="10" />
+            <SelectField field="Inspection Type" selected="True" size="100" />
+            <SelectField field="Results" selected="True" size="50" />
+            <SelectField field="Violations" selected="True" size="12000" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Location" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="642" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>StgID</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="738" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_10152_4e1f4e04a337234ba09a54e706dfd4bb_\Engine_10152_5a3168a88667f043ab12005c065c24b4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="438" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeParse([Inspection Date],&quot;%m/%d/%Y&quot;)" field="Inspection Date" size="10" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Inspection Date = DateTimeParse([Inspection Date],"%m/%d/%Y")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="738" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:LocalSQLServer - sa/foodinspection|||stg_ChicagoFoodInspectionResults_Original</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Overwrite</OutputOption>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=stg_ChicagoFoodInspectionRes...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="546" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Staging_Chicago_FoodInspectionResults</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="e03967c8-b343-4f95-b8f7-4c3ba04207ad" />
+      <Telemetry>
+        <PreviousWorkflowId value="e2882e26-8c30-45a9-a3f6-fbe3680817fb" />
+        <OriginWorkflowId value="e2882e26-8c30-45a9-a3f6-fbe3680817fb" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

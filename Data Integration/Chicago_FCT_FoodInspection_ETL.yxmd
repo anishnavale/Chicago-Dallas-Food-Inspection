@@ -1,0 +1,1241 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* 
+from stg_ChicagoFoodInspectionResults_Original</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select stg_ChicagoFoodInspec...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StgID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Inspection ID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="DBA Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="AKA Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="License #" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Facility Type" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Risk" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Address" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="City" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="State" size="2" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Zip" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Inspection Type" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Results" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violations" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Latitude" size="18" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Longitude" size="18" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Location" size="40" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="222" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="DBA Name" selected="True" />
+            <Field field="AKA Name" selected="True" />
+            <Field field="Facility Type" selected="True" />
+            <Field field="Risk" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Inspection Date" selected="True" />
+            <Field field="Inspection Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Violations" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="DI_WorkflowFileName" selected="True" />
+            <Field field="DI_WorkflowDirectory" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StgID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Inspection ID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="DBA Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="AKA Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="License #" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Facility Type" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Risk" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Address" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="City" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="State" size="2" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Zip" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Inspection Type" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Results" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violations" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Latitude" size="18" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Longitude" size="18" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Location" size="40" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1038" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-999" field="Score" size="8" type="Int64" />
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="2147483646" type="V_String" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="2147483647" type="V_String" />
+            <FormulaField expression="'No InspectionFYYear Present'" field="InspectionFYYear" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Score = -999
+DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = [Engine.Workflo...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="State" selected="True" type="V_String" size="100" />
+            <SelectField field="Zip" selected="True" type="V_String" size="50" />
+            <SelectField field="Inspection Date" selected="True" type="Date" size="10" />
+            <SelectField field="Latitude" selected="True" type="V_String" size="50" />
+            <SelectField field="Longitude" selected="True" type="V_String" size="50" />
+            <SelectField field="Location" selected="True" type="V_String" size="50" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="258" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DBA Name" />
+            <Field field="AKA Name" />
+            <Field field="Facility Type" />
+            <Field field="Address" />
+            <Field field="Zip" />
+            <Field field="City" />
+            <Field field="State" />
+            <Field field="License #" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Restaurant_Name" />
+            <Field field="AKA_Name" />
+            <Field field="FacilityType" />
+            <Field field="StreetAddress" />
+            <Field field="Zip" />
+            <Field field="City" />
+            <Field field="State" />
+            <Field field="LICENSE ID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Inspection ID" selected="True" input="Left_" />
+                <SelectField field="Left_DBA Name" selected="True" input="Left_" />
+                <SelectField field="Left_AKA Name" selected="True" input="Left_" />
+                <SelectField field="Left_License #" selected="True" input="Left_" />
+                <SelectField field="Left_Facility Type" selected="True" input="Left_" />
+                <SelectField field="Left_Risk" selected="True" input="Left_" />
+                <SelectField field="Left_Address" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Zip" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Results" selected="True" input="Left_" />
+                <SelectField field="Left_Violations" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Location" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Right_FoodPlacesSK" selected="True" input="Right_" />
+                <SelectField field="Right_City" selected="False" rename="Right_City" input="Right_" />
+                <SelectField field="Right_State" selected="False" rename="Right_State" input="Right_" />
+                <SelectField field="Right_Zip" selected="False" rename="Right_Zip" input="Right_" />
+                <SelectField field="Right_Latitude" selected="False" rename="Right_Latitude" input="Right_" />
+                <SelectField field="Right_Longitude" selected="False" rename="Right_Longitude" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_InspectionType.* 
+from Dim_InspectionType</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_InspectionType.*...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InspectionTypeSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="Int32" />
+            <Field name="InspectionType" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="V_String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_InspectionType.* &#xA;from Dim_InspectionType" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_Results.* 
+from Dim_Results</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_Results.* 
+from...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ResultsSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Results.* &#xA;from Dim_Results" type="Int32" />
+            <Field name="Result" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Results.* &#xA;from Dim_Results" type="V_String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Results.* &#xA;from Dim_Results" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Results.* &#xA;from Dim_Results" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Results.* &#xA;from Dim_Results" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="270" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Results" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Result" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Inspection ID" selected="True" input="Left_" />
+                <SelectField field="Left_DBA Name" selected="True" input="Left_" />
+                <SelectField field="Left_AKA Name" selected="True" input="Left_" />
+                <SelectField field="Left_License #" selected="True" input="Left_" />
+                <SelectField field="Left_Facility Type" selected="True" input="Left_" />
+                <SelectField field="Left_Risk" selected="True" input="Left_" />
+                <SelectField field="Left_Address" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Zip" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Results" selected="True" input="Left_" />
+                <SelectField field="Left_Violations" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Location" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Left_FoodPlacesSK" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionTypeSK" selected="True" input="Left_" />
+                <SelectField field="Right_ResultsSK" selected="True" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="750" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Risk" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Risk" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Inspection ID" selected="True" input="Left_" />
+                <SelectField field="Left_DBA Name" selected="True" input="Left_" />
+                <SelectField field="Left_AKA Name" selected="True" input="Left_" />
+                <SelectField field="Left_License #" selected="True" input="Left_" />
+                <SelectField field="Left_Facility Type" selected="True" input="Left_" />
+                <SelectField field="Left_Risk" selected="True" input="Left_" />
+                <SelectField field="Left_Address" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Zip" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Results" selected="True" input="Left_" />
+                <SelectField field="Left_Violations" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Location" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Left_FoodPlacesSK" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionTypeSK" selected="True" input="Left_" />
+                <SelectField field="Left_ResultsSK" selected="True" input="Left_" />
+                <SelectField field="Right_RiskSK" selected="True" input="Right_" />
+                <SelectField field="Right_Risk" selected="False" rename="Right_Risk" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="666" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_Risk.* 
+from Dim_Risk</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_Risk.* 
+from Dim...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RiskSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Risk.* &#xA;from Dim_Risk" type="Int32" />
+            <Field name="Risk" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Risk.* &#xA;from Dim_Risk" type="V_String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Risk.* &#xA;from Dim_Risk" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Risk.* &#xA;from Dim_Risk" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Risk.* &#xA;from Dim_Risk" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="690" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* 
+from DIM_Date</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select DIM_Date.* 
+from DIM...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date_sk" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="full_date_ak" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Date" />
+            <Field name="day_number_of_week" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="day_name_of_week" size="10" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="V_WString" />
+            <Field name="day_number_of_month" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="day_number_of_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="week_number_of_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="month_name" size="10" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="V_WString" />
+            <Field name="month_number_of_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="calendar_quarter" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="calendar_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="846" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Inspection Date" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_date_sk" selected="True" rename="InspectionDateSK" input="Right_" />
+                <SelectField field="Right_full_date_ak" selected="False" input="Right_" />
+                <SelectField field="Right_day_number_of_week" selected="False" input="Right_" />
+                <SelectField field="Right_day_name_of_week" selected="False" input="Right_" />
+                <SelectField field="Right_day_number_of_month" selected="False" input="Right_" />
+                <SelectField field="Right_day_number_of_year" selected="False" input="Right_" />
+                <SelectField field="Right_week_number_of_year" selected="False" input="Right_" />
+                <SelectField field="Right_month_name" selected="False" input="Right_" />
+                <SelectField field="Right_month_number_of_year" selected="False" input="Right_" />
+                <SelectField field="Right_calendar_quarter" selected="False" input="Right_" />
+                <SelectField field="Right_calendar_year" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="942" y="342" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" type="V_String" size="11" />
+            <SelectField field="FoodPlacesSK" selected="True" />
+            <SelectField field="InspectionTypeSK" selected="True" />
+            <SelectField field="ResultsSK" selected="True" />
+            <SelectField field="RiskSK" selected="True" />
+            <SelectField field="InspectionDateSK" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-999" field="FoodPlacesSK" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[FoodPlacesSK = -999
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="474" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="390" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-999" field="InspectionTypeSK" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[InspectionTypeSK = -999
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="486" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="366" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-999" field="ResultsSK" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[ResultsSK = -999
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="474" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="858" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="-999" field="RiskSK" size="4" type="Int32" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[RiskSK = -999
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="978" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* 
+from Dim_Foodplaces</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_Foodplaces.* 
+fr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FoodPlacesSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="Int32" />
+            <Field name="Restaurant_Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_String" />
+            <Field name="AKA_Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_String" />
+            <Field name="StreetAddress" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_String" />
+            <Field name="City" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_String" />
+            <Field name="State" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_String" />
+            <Field name="Zip" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_String" />
+            <Field name="Latitude" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="Double" />
+            <Field name="Longitude" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="Double" />
+            <Field name="FacilityType" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_String" />
+            <Field name="LicenseSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="Int32" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Foodplaces.* &#xA;from Dim_Foodplaces" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* 
+from Dim_License</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_License.* 
+from...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="LicenseSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="ID" size="16" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="String" />
+            <Field name="LICENSE ID" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="SITE NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int16" />
+            <Field name="LEGAL NAME" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="ADDRESS" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="CITY" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="STATE" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="ZIP CODE" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="WARD" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="PRECINCT" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int16" />
+            <Field name="WARD PRECINCT" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="POLICE DISTRICT" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="LICENSE CODE" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="1000" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="APPLICATION TYPE" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="ApplicationCreatedDateSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="ApplicationRequirementsCompleteSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="PaymentDateSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="CONDITIONAL APPROVAL" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="LicenseTermStartDateSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="LicenseTermExpirationDateSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="LicenseApprovedForIssuanceSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="DateIssuedSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="LICENSE STATUS" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_String" />
+            <Field name="LicenseStatusChangeDateSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="SSA" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Int32" />
+            <Field name="LATITUDE" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Double" />
+            <Field name="LONGITUDE" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="Double" />
+            <Field name="LOCATION" size="40" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_License.* &#xA;from Dim_License" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="198" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LicenseSK" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="LicenseSK" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_FoodPlacesSK" selected="True" input="Left_" />
+                <SelectField field="Left_Restaurant_Name" selected="True" input="Left_" />
+                <SelectField field="Left_AKA_Name" selected="True" input="Left_" />
+                <SelectField field="Left_StreetAddress" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Zip" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_FacilityType" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseSK" selected="True" input="Left_" />
+                <SelectField field="Right_LicenseSK" selected="False" rename="Right_LicenseSK" input="Right_" />
+                <SelectField field="Right_LICENSE ID" selected="True" input="Right_" />
+                <SelectField field="Right_CITY" selected="False" rename="Right_CITY" input="Right_" />
+                <SelectField field="Right_STATE" selected="False" rename="Right_STATE" input="Right_" />
+                <SelectField field="Right_LATITUDE" selected="False" rename="Right_LATITUDE" input="Right_" />
+                <SelectField field="Right_LONGITUDE" selected="False" rename="Right_LONGITUDE" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="294" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Inspection Type" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="InspectionType" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_StgID" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection ID" selected="True" input="Left_" />
+                <SelectField field="Left_DBA Name" selected="True" input="Left_" />
+                <SelectField field="Left_AKA Name" selected="True" input="Left_" />
+                <SelectField field="Left_License #" selected="True" input="Left_" />
+                <SelectField field="Left_Facility Type" selected="True" input="Left_" />
+                <SelectField field="Left_Risk" selected="True" input="Left_" />
+                <SelectField field="Left_Address" selected="True" input="Left_" />
+                <SelectField field="Left_City" selected="True" input="Left_" />
+                <SelectField field="Left_State" selected="True" input="Left_" />
+                <SelectField field="Left_Zip" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Date" selected="True" input="Left_" />
+                <SelectField field="Left_Inspection Type" selected="True" input="Left_" />
+                <SelectField field="Left_Results" selected="True" input="Left_" />
+                <SelectField field="Left_Violations" selected="True" input="Left_" />
+                <SelectField field="Left_Latitude" selected="True" input="Left_" />
+                <SelectField field="Left_Longitude" selected="True" input="Left_" />
+                <SelectField field="Left_Location" selected="True" input="Left_" />
+                <SelectField field="Left_DI_CreateDate" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowFileName" selected="True" input="Left_" />
+                <SelectField field="Left_DI_WorkflowDirectory" selected="True" input="Left_" />
+                <SelectField field="Left_FoodPlacesSK" selected="True" input="Left_" />
+                <SelectField field="Right_InspectionTypeSK" selected="True" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1194" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhawa\AppData\Local\Temp\Engine_5600_9ba3a742515ce545ace5bcf493e31a93_\Engine_5600_cc408400ada2504c8bbce047f54b4739~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1170" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:LocalSQLServer - sa/foodinspection|||Fct_FoodInspection</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Inspection ID" Dest="InspectionId" />
+                <Field Source="FoodPlacesSK" Dest="FoodPlacesSK" />
+                <Field Source="InspectionTypeSK" Dest="InspectionTypeSK" />
+                <Field Source="ResultsSK" Dest="ResultSK" />
+                <Field Source="RiskSK" Dest="RiskSK" />
+                <Field Source="InspectionDateSK" Dest="InspectionDateSK" />
+                <Field Source="Score" Dest="InspectionScore" />
+                <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+                <Field Source="InspectionFYYear" Dest="InspectionFYYear" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=Fct_FoodInspection</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Join" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Left" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="38" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="38" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Left" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Left" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Join" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="38" Connection="Join" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="32" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Left" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_FCT_FoodInspection_ETL</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="c67ae613-b152-48c6-83f1-83b69cfd0c69" />
+      <Telemetry>
+        <PreviousWorkflowId value="614428fb-12a9-4259-8e77-e0376458d8fa" />
+        <OriginWorkflowId value="716e5190-cd57-4af7-98ac-55f3b192303c" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

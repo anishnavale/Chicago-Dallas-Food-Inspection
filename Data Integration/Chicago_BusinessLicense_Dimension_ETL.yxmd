@@ -1,0 +1,1134 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* 
+from stg_ChicagoBusinessLicense_Original</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select stg_ChicagoBusinessLi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StgID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="ID" size="16" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="LICENSE ID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="SITE NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LEGAL NAME" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="ADDRESS" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="CITY" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="STATE" size="2" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="WARD" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="PRECINCT" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="WARD PRECINCT" size="20" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="POLICE DISTRICT" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LICENSE CODE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="1000" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="APPLICATION TYPE" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="APPLICATION CREATED DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="PAYMENT DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="LICENSE TERM START DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="LICENSE TERM EXPIRATION DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="DATE ISSUED" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="LICENSE STATUS" size="3" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="SSA" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LATITUDE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Double" />
+            <Field name="LONGITUDE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Double" />
+            <Field name="LOCATION" size="40" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="246" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* 
+from DIM_Date</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select DIM_Date.* 
+from DIM...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date_sk" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="full_date_ak" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Date" />
+            <Field name="day_number_of_week" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="day_name_of_week" size="10" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="V_WString" />
+            <Field name="day_number_of_month" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="day_number_of_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="week_number_of_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="month_name" size="10" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="V_WString" />
+            <Field name="month_number_of_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="calendar_quarter" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int32" />
+            <Field name="calendar_year" source="File: aka:LocalSQLServer - sa/foodinspection|||select DIM_Date.* &#xA;from DIM_Date" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="126" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ID" selected="True" />
+            <Field field="LEGAL NAME" selected="True" />
+            <Field field="DOING BUSINESS AS NAME" selected="True" />
+            <Field field="ADDRESS" selected="True" />
+            <Field field="CITY" selected="True" />
+            <Field field="STATE" selected="True" />
+            <Field field="ZIP CODE" selected="True" />
+            <Field field="WARD PRECINCT" selected="True" />
+            <Field field="LICENSE DESCRIPTION" selected="True" />
+            <Field field="BUSINESS ACTIVITY ID" selected="True" />
+            <Field field="BUSINESS ACTIVITY" selected="True" />
+            <Field field="APPLICATION TYPE" selected="True" />
+            <Field field="CONDITIONAL APPROVAL" selected="True" />
+            <Field field="LICENSE STATUS" selected="True" />
+            <Field field="LOCATION" selected="True" />
+            <Field field="DI_WorkflowFileName" selected="True" />
+            <Field field="DI_WorkflowDirectory" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StgID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="ID" size="16" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="LICENSE ID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="ACCOUNT NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="SITE NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LEGAL NAME" size="117" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="DOING BUSINESS AS NAME" size="128" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="ADDRESS" size="80" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="CITY" size="30" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="STATE" size="2" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="ZIP CODE" size="5" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="WARD" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="PRECINCT" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="WARD PRECINCT" size="6" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="POLICE DISTRICT" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LICENSE CODE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LICENSE DESCRIPTION" size="60" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="BUSINESS ACTIVITY ID" size="81" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="BUSINESS ACTIVITY" size="735" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="V_String" />
+            <Field name="LICENSE NUMBER" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int32" />
+            <Field name="APPLICATION TYPE" size="6" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="APPLICATION CREATED DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="APPLICATION REQUIREMENTS COMPLETE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="PAYMENT DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="CONDITIONAL APPROVAL" size="1" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="LICENSE TERM START DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="LICENSE TERM EXPIRATION DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="LICENSE APPROVED FOR ISSUANCE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="DATE ISSUED" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="LICENSE STATUS" size="3" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="LICENSE STATUS CHANGE DATE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Date" />
+            <Field name="SSA" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Int16" />
+            <Field name="LATITUDE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Double" />
+            <Field name="LONGITUDE" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="Double" />
+            <Field name="LOCATION" size="40" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="37" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+            <Field name="DI_WorkflowDirectory" size="68" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoBusinessLicense_Original.* &#xA;from stg_ChicagoBusinessLicense_Original" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="318" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([CITY]) THEN &quot;No City Present&quot; ELSE [CITY] ENDIF" field="CITY" size="50" type="V_String" />
+            <FormulaField expression="IF IsNull([STATE]) THEN &quot;No State Present&quot; ELSE [STATE] ENDIF" field="STATE" size="50" type="V_String" />
+            <FormulaField expression="IF IsNull([ZIP CODE]) THEN &quot;No Zip Code Present&quot; ELSE [ZIP CODE] ENDIF" field="ZIP CODE" size="50" type="V_String" />
+            <FormulaField expression="IF IsNull([WARD]) THEN -999 ELSE [WARD] ENDIF" field="WARD" size="2" type="Int16" />
+            <FormulaField expression="IF IsNull([PRECINCT]) THEN -999 ELSE [PRECINCT] ENDIF" field="PRECINCT" size="2" type="Int16" />
+            <FormulaField expression="IF IsNull([PRECINCT]) THEN &quot;No Ward Precinct Present&quot; ELSE [PRECINCT] ENDIF" field="WARD PRECINCT" size="50" type="V_String" />
+            <FormulaField expression="IF IsNull([POLICE DISTRICT]) THEN -999 ELSE [POLICE DISTRICT] ENDIF" field="POLICE DISTRICT" size="2" type="Int16" />
+            <FormulaField expression="IF IsNull([BUSINESS ACTIVITY ID]) THEN &quot;No BUSINESS ACTIVITY ID Present&quot; ELSE [BUSINESS ACTIVITY ID] ENDIF" field="BUSINESS ACTIVITY ID" size="100" type="V_String" />
+            <FormulaField expression="IF IsNull([BUSINESS ACTIVITY]) THEN &quot;No BUSINESS ACTIVITY Present&quot; ELSE [BUSINESS ACTIVITY] ENDIF" field="BUSINESS ACTIVITY" size="1000" type="V_String" />
+            <FormulaField expression="IF IsNull([LICENSE NUMBER]) THEN -999 ELSE [LICENSE NUMBER] ENDIF" field="LICENSE NUMBER" size="4" type="Int32" />
+            <FormulaField expression="IF IsNull([APPLICATION CREATED DATE]) THEN &quot;1900-01-01&quot; ELSE [APPLICATION CREATED DATE] ENDIF" field="APPLICATION CREATED DATE" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([APPLICATION REQUIREMENTS COMPLETE]) THEN &quot;1900-01-01&quot; ELSE [APPLICATION REQUIREMENTS COMPLETE] ENDIF" field="APPLICATION REQUIREMENTS COMPLETE" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([PAYMENT DATE]) THEN &quot;1900-01-01&quot; ELSE [PAYMENT DATE] ENDIF" field="PAYMENT DATE" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([LICENSE TERM START DATE]) THEN &quot;1900-01-01&quot; ELSE [LICENSE TERM START DATE] ENDIF" field="LICENSE TERM START DATE" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([LICENSE TERM EXPIRATION DATE]) THEN &quot;1900-01-01&quot; ELSE [LICENSE TERM EXPIRATION DATE] ENDIF" field="LICENSE TERM EXPIRATION DATE" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([LICENSE APPROVED FOR ISSUANCE]) THEN &quot;1900-01-01&quot; ELSE [LICENSE APPROVED FOR ISSUANCE] ENDIF" field="LICENSE APPROVED FOR ISSUANCE" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([DATE ISSUED]) THEN &quot;1900-01-01&quot; ELSE [DATE ISSUED] ENDIF" field="DATE ISSUED" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([LICENSE STATUS CHANGE DATE]) THEN &quot;1900-01-01&quot; ELSE [LICENSE STATUS CHANGE DATE] ENDIF" field="LICENSE STATUS CHANGE DATE" size="10" type="Date" />
+            <FormulaField expression="IF IsNull([SSA]) THEN -999 ELSE [SSA] ENDIF" field="SSA" size="2" type="Int16" />
+            <FormulaField expression="IF IsNull([LOCATION]) THEN &quot;No Location Present&quot; ELSE [LOCATION] ENDIF" field="LOCATION" size="40" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CITY = IF IsNull([CITY]) THEN "No City Present" ELSE [CITY] ENDIF
+STATE = IF IsN...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="APPLICATION CREATED DATE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" size="16384" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" size="16384" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" size="16384" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION REQUIREMENTS COMPLETE" selected="True" input="Left_" />
+                <SelectField field="Left_PAYMENT DATE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE TERM START DATE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE TERM EXPIRATION DATE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE APPROVED FOR ISSUANCE" selected="True" input="Left_" />
+                <SelectField field="Left_DATE ISSUED" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS CHANGE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="ApplicationCreatedDateSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="APPLICATION REQUIREMENTS COMPLETE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_PAYMENT DATE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE TERM START DATE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE TERM EXPIRATION DATE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE APPROVED FOR ISSUANCE" selected="True" input="Left_" />
+                <SelectField field="Left_DATE ISSUED" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS CHANGE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationCreatedDateSK" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="ApplicationRequirementsCompleteSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="PAYMENT DATE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE TERM START DATE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE TERM EXPIRATION DATE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE APPROVED FOR ISSUANCE" selected="True" input="Left_" />
+                <SelectField field="Left_DATE ISSUED" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS CHANGE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationCreatedDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationRequirementsCompleteSK" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="PaymentDateSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LICENSE TERM START DATE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE TERM EXPIRATION DATE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE APPROVED FOR ISSUANCE" selected="True" input="Left_" />
+                <SelectField field="Left_DATE ISSUED" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS CHANGE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationCreatedDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationRequirementsCompleteSK" selected="True" input="Left_" />
+                <SelectField field="Left_PaymentDateSK" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="LicenseTermStartDateSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LICENSE TERM EXPIRATION DATE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE APPROVED FOR ISSUANCE" selected="True" input="Left_" />
+                <SelectField field="Left_DATE ISSUED" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS CHANGE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationCreatedDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationRequirementsCompleteSK" selected="True" input="Left_" />
+                <SelectField field="Left_PaymentDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseTermStartDateSK" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="LicenseTermExpirationDateSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LICENSE APPROVED FOR ISSUANCE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_DATE ISSUED" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS CHANGE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationCreatedDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationRequirementsCompleteSK" selected="True" input="Left_" />
+                <SelectField field="Left_PaymentDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseTermStartDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseTermExpirationDateSK" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="LicenseApprovedForIssuanceSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="438" y="510" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="DATE ISSUED" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS CHANGE DATE" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationCreatedDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationRequirementsCompleteSK" selected="True" input="Left_" />
+                <SelectField field="Left_PaymentDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseTermStartDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseTermExpirationDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseApprovedForIssuanceSK" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="DateIssuedSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="642" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="LICENSE STATUS CHANGE DATE" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="full_date_ak" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_ID" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE ID" selected="True" input="Left_" />
+                <SelectField field="Left_ACCOUNT NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_SITE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_LEGAL NAME" selected="True" input="Left_" />
+                <SelectField field="Left_DOING BUSINESS AS NAME" selected="True" input="Left_" />
+                <SelectField field="Left_ADDRESS" selected="True" input="Left_" />
+                <SelectField field="Left_CITY" selected="True" input="Left_" />
+                <SelectField field="Left_STATE" selected="True" input="Left_" />
+                <SelectField field="Left_ZIP CODE" selected="True" input="Left_" />
+                <SelectField field="Left_WARD" selected="True" input="Left_" />
+                <SelectField field="Left_PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_WARD PRECINCT" selected="True" input="Left_" />
+                <SelectField field="Left_POLICE DISTRICT" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE CODE" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE DESCRIPTION" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY ID" selected="True" input="Left_" />
+                <SelectField field="Left_BUSINESS ACTIVITY" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE NUMBER" selected="True" input="Left_" />
+                <SelectField field="Left_APPLICATION TYPE" selected="True" input="Left_" />
+                <SelectField field="Left_CONDITIONAL APPROVAL" selected="True" input="Left_" />
+                <SelectField field="Left_LICENSE STATUS" selected="True" input="Left_" />
+                <SelectField field="Left_SSA" selected="True" input="Left_" />
+                <SelectField field="Left_LATITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LONGITUDE" selected="True" input="Left_" />
+                <SelectField field="Left_LOCATION" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationCreatedDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_ApplicationRequirementsCompleteSK" selected="True" input="Left_" />
+                <SelectField field="Left_PaymentDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseTermStartDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseTermExpirationDateSK" selected="True" input="Left_" />
+                <SelectField field="Left_LicenseApprovedForIssuanceSK" selected="True" input="Left_" />
+                <SelectField field="Left_DateIssuedSK" selected="True" input="Left_" />
+                <SelectField field="Right_date_sk" selected="True" rename="LicenseStatusChangeDateSK" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="738" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="DateTimeNow()" field="DI_CreateDate" size="19" type="DateTime" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DI_WorkflowFileName" size="100" type="String" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DI_WorkflowDirectory" size="100" type="String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DI_CreateDate = DateTimeNow()
+DI_WorkflowFileName = [Engine.WorkflowFileName]
+DI...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1026" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\prath\AppData\Local\Temp\Engine_12868_c073cb9b91cfc94dade22c8f0bf1fbe3_\Engine_12868_3811b6143e17d24cb159c04a08607cf4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1026" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:LocalSQLServer - sa/foodinspection|||Dim_License</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionMessages>False</TransactionMessages>
+            <Geometry>True</Geometry>
+            <Projection />
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <SpatialObjSize>8000</SpatialObjSize>
+            <OutputOption>Append</OutputOption>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="ID" Dest="ID" />
+                <Field Source="LICENSE ID" Dest="LICENSE ID" />
+                <Field Source="ACCOUNT NUMBER" Dest="ACCOUNT NUMBER" />
+                <Field Source="SITE NUMBER" Dest="SITE NUMBER" />
+                <Field Source="LEGAL NAME" Dest="LEGAL NAME" />
+                <Field Source="DOING BUSINESS AS NAME" Dest="DOING BUSINESS AS NAME" />
+                <Field Source="ADDRESS" Dest="ADDRESS" />
+                <Field Source="CITY" Dest="CITY" />
+                <Field Source="STATE" Dest="STATE" />
+                <Field Source="ZIP CODE" Dest="ZIP CODE" />
+                <Field Source="WARD" Dest="WARD" />
+                <Field Source="PRECINCT" Dest="PRECINCT" />
+                <Field Source="WARD PRECINCT" Dest="WARD PRECINCT" />
+                <Field Source="POLICE DISTRICT" Dest="POLICE DISTRICT" />
+                <Field Source="LICENSE CODE" Dest="LICENSE CODE" />
+                <Field Source="LICENSE DESCRIPTION" Dest="LICENSE DESCRIPTION" />
+                <Field Source="BUSINESS ACTIVITY ID" Dest="BUSINESS ACTIVITY ID" />
+                <Field Source="BUSINESS ACTIVITY" Dest="BUSINESS ACTIVITY" />
+                <Field Source="LICENSE NUMBER" Dest="LICENSE NUMBER" />
+                <Field Source="APPLICATION TYPE" Dest="APPLICATION TYPE" />
+                <Field Source="CONDITIONAL APPROVAL" Dest="CONDITIONAL APPROVAL" />
+                <Field Source="LICENSE STATUS" Dest="LICENSE STATUS" />
+                <Field Source="SSA" Dest="SSA" />
+                <Field Source="LATITUDE" Dest="LATITUDE" />
+                <Field Source="LONGITUDE" Dest="LONGITUDE" />
+                <Field Source="LOCATION" Dest="LOCATION" />
+                <Field Source="ApplicationCreatedDateSK" Dest="ApplicationCreatedDateSK" />
+                <Field Source="ApplicationRequirementsCompleteSK" Dest="ApplicationRequirementsCompleteSK" />
+                <Field Source="PaymentDateSK" Dest="PaymentDateSK" />
+                <Field Source="LicenseTermStartDateSK" Dest="LicenseTermStartDateSK" />
+                <Field Source="LicenseTermExpirationDateSK" Dest="LicenseTermExpirationDateSK" />
+                <Field Source="LicenseApprovedForIssuanceSK" Dest="LicenseApprovedForIssuanceSK" />
+                <Field Source="DateIssuedSK" Dest="DateIssuedSK" />
+                <Field Source="LicenseStatusChangeDateSK" Dest="LicenseStatusChangeDateSK" />
+                <Field Source="DI_CreateDate" Dest="DI_CreateDate" />
+                <Field Source="DI_WorkflowFileName" Dest="DI_WorkflowFileName" />
+                <Field Source="DI_WorkflowDirectory" Dest="DI_WorkflowDirectory" />
+              </AppendMapping>
+            </AppendMap>
+            <PostSQL />
+            <TransactionSize>10000</TransactionSize>
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=Dim_License</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" type="V_String" size="16" />
+            <SelectField field="LICENSE ID" selected="True" />
+            <SelectField field="ACCOUNT NUMBER" selected="True" />
+            <SelectField field="SITE NUMBER" selected="True" />
+            <SelectField field="LEGAL NAME" selected="True" />
+            <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+            <SelectField field="ADDRESS" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="STATE" selected="True" type="V_String" size="50" />
+            <SelectField field="ZIP CODE" selected="True" type="V_String" size="50" />
+            <SelectField field="WARD" selected="True" />
+            <SelectField field="PRECINCT" selected="True" />
+            <SelectField field="WARD PRECINCT" selected="True" type="V_String" size="50" />
+            <SelectField field="POLICE DISTRICT" selected="True" />
+            <SelectField field="LICENSE CODE" selected="True" />
+            <SelectField field="LICENSE DESCRIPTION" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY ID" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY" selected="True" />
+            <SelectField field="LICENSE NUMBER" selected="True" />
+            <SelectField field="APPLICATION TYPE" selected="True" type="V_String" size="50" />
+            <SelectField field="APPLICATION CREATED DATE" selected="True" />
+            <SelectField field="APPLICATION REQUIREMENTS COMPLETE" selected="True" />
+            <SelectField field="PAYMENT DATE" selected="True" />
+            <SelectField field="CONDITIONAL APPROVAL" selected="True" type="V_String" size="50" />
+            <SelectField field="LICENSE TERM START DATE" selected="True" />
+            <SelectField field="LICENSE TERM EXPIRATION DATE" selected="True" />
+            <SelectField field="LICENSE APPROVED FOR ISSUANCE" selected="True" />
+            <SelectField field="DATE ISSUED" selected="True" />
+            <SelectField field="LICENSE STATUS" selected="True" type="V_String" size="50" />
+            <SelectField field="LICENSE STATUS CHANGE DATE" selected="True" />
+            <SelectField field="SSA" selected="True" />
+            <SelectField field="LATITUDE" selected="True" />
+            <SelectField field="LONGITUDE" selected="True" />
+            <SelectField field="LOCATION" selected="True" type="V_String" size="40" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="834" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="True" />
+            <SelectField field="LICENSE ID" selected="True" />
+            <SelectField field="ACCOUNT NUMBER" selected="True" />
+            <SelectField field="SITE NUMBER" selected="True" />
+            <SelectField field="LEGAL NAME" selected="True" />
+            <SelectField field="DOING BUSINESS AS NAME" selected="True" />
+            <SelectField field="ADDRESS" selected="True" />
+            <SelectField field="CITY" selected="True" />
+            <SelectField field="STATE" selected="True" />
+            <SelectField field="ZIP CODE" selected="True" />
+            <SelectField field="WARD" selected="True" />
+            <SelectField field="PRECINCT" selected="True" />
+            <SelectField field="WARD PRECINCT" selected="True" />
+            <SelectField field="POLICE DISTRICT" selected="True" />
+            <SelectField field="LICENSE CODE" selected="True" />
+            <SelectField field="LICENSE DESCRIPTION" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY ID" selected="True" />
+            <SelectField field="BUSINESS ACTIVITY" selected="True" />
+            <SelectField field="LICENSE NUMBER" selected="True" />
+            <SelectField field="APPLICATION TYPE" selected="True" />
+            <SelectField field="CONDITIONAL APPROVAL" selected="True" />
+            <SelectField field="LICENSE STATUS" selected="True" />
+            <SelectField field="SSA" selected="True" />
+            <SelectField field="LATITUDE" selected="True" />
+            <SelectField field="LONGITUDE" selected="True" />
+            <SelectField field="LOCATION" selected="True" />
+            <SelectField field="ApplicationCreatedDateSK" selected="True" />
+            <SelectField field="ApplicationRequirementsCompleteSK" selected="True" />
+            <SelectField field="PaymentDateSK" selected="True" />
+            <SelectField field="LicenseTermStartDateSK" selected="True" />
+            <SelectField field="LicenseTermExpirationDateSK" selected="True" />
+            <SelectField field="LicenseApprovedForIssuanceSK" selected="True" />
+            <SelectField field="DateIssuedSK" selected="True" />
+            <SelectField field="LicenseStatusChangeDateSK" selected="True" />
+            <SelectField field="DI_CreateDate" selected="True" />
+            <SelectField field="DI_WorkflowFileName" selected="True" />
+            <SelectField field="DI_WorkflowDirectory" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="7" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="8" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Join" />
+      <Destination ToolID="8" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Join" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Join" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_BusinessLicense_Dimension_ETL</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="644c9390-4a1b-4c99-9890-8abb26a93fd6" />
+      <Telemetry>
+        <PreviousWorkflowId value="9f44562d-7096-4ead-9c33-2c2f4372408b" />
+        <OriginWorkflowId value="9f44562d-7096-4ead-9c33-2c2f4372408b" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

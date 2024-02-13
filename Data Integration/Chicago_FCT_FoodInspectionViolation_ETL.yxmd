@@ -1,0 +1,678 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="193">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* 
+from stg_ChicagoFoodInspectionResults_Original</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select stg_ChicagoFoodInspec...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StgID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Inspection ID" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="DBA Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="AKA Name" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="License #" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Facility Type" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Risk" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Address" size="255" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="City" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="State" size="2" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Zip" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="Int32" />
+            <Field name="Inspection Date" size="10" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Inspection Type" size="100" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Results" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Violations" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_String" />
+            <Field name="Latitude" size="18" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Longitude" size="18" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="Location" size="40" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select stg_ChicagoFoodInspectionResults_Original.* &#xA;from stg_ChicagoFoodInspectionResults_Original" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="246" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <Delimeters value="|" />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="354" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Trim([Violations])" field="Violations" size="16777216" type="V_String" />
+            <FormulaField expression="DateTimeNow()" field="DT_CREATEDT" size="10" type="Date" />
+            <FormulaField expression="[Engine.WorkflowFileName]" field="DT_FileName" size="1073741823" type="V_WString" />
+            <FormulaField expression="[Engine.WorkflowDirectory]" field="DT_WF_FileName" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Violations = Trim([Violations])
+DT_CREATEDT = DateTimeNow()
+DT_FileName = [Engin...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="438" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations</Field>
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Violations</RootName>
+          <Delimeters value="." />
+          <NumFields value="2" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="534" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Violations2</Field>
+          <RegExExpression value="(.*)(- Comments:)(.*)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Violations2</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="ViolationDescription" type="V_String" size="16777216" />
+            <Field field="RegExOut2" type="V_String" size="16777216" />
+            <Field field="ViolationDetail" type="V_String" size="16777216" />
+          </ParseComplex>
+          <Match>
+            <Field>Violations_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="Zip" selected="False" type="V_String" size="11" />
+            <SelectField field="Violations" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="642" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([Violations1]) THEN 'No Violation Code Present' &#xA;ELSE [Violations1] ENDIF" field="Violations1" size="16777216" type="V_String" />
+            <FormulaField expression="If IsNull([ViolationDescription])&#xA;then Trim([Violations2])&#xA;else Trim([ViolationDescription]) &#xA;ENDIF" field="ViolationDescription" size="16777216" type="V_String" />
+            <FormulaField expression="If IsNull([ViolationDetail])&#xA;then 'No Violation Detail Present'&#xA;else Trim([ViolationDetail])&#xA;ENDIF" field="ViolationDetail" size="16777216" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Violations1 = IF IsNull([Violations1]) THEN 'No Violation Code Present' 
+ELSE [V...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="196">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* 
+from Fct_FoodInspection</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Fct_FoodInspection.*...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="InspectionSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="FoodPlacesSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="InspectionDateSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="ResultSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="RiskSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="InspectionScore" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="InspectionTypeSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="InspectionFYYear" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="V_String" />
+            <Field name="InspectionId" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="Int32" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Fct_FoodInspection.* &#xA;from Fct_FoodInspection" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="198">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="342" y="390" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File FileFormat="23" RecordLimit="">aka:LocalSQLServer - sa/foodinspection|||select Dim_Violation.* 
+from Dim_Violation</File>
+          <FormatSpecificOptions>
+            <SingleRowFetch>False</SingleRowFetch>
+            <ReadCentroids>False</ReadCentroids>
+            <TableStyle>Quoted</TableStyle>
+            <CacheData>False</CacheData>
+            <SessionReadOnly>True</SessionReadOnly>
+            <ReadUncommitted>False</ReadUncommitted>
+            <NoProgress>True</NoProgress>
+            <PostSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <PreSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=select Dim_Violation.* 
+fro...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ViolationSK" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Violation.* &#xA;from Dim_Violation" type="Int32" />
+            <Field name="ViolationCode" size="50" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Violation.* &#xA;from Dim_Violation" type="V_String" />
+            <Field name="ViolationDescription" size="1000" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Violation.* &#xA;from Dim_Violation" type="V_String" />
+            <Field name="DI_CreateDate" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Violation.* &#xA;from Dim_Violation" type="DateTime" />
+            <Field name="DI_WorkflowFileName" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Violation.* &#xA;from Dim_Violation" type="V_WString" />
+            <Field name="DI_WorkflowDirectory" size="16777216" source="File: aka:LocalSQLServer - sa/foodinspection|||select Dim_Violation.* &#xA;from Dim_Violation" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="202">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="834" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection ID" selected="True" />
+            <SelectField field="DT_CREATEDT" selected="True" />
+            <SelectField field="DT_FileName" selected="True" />
+            <SelectField field="DT_WF_FileName" selected="True" />
+            <SelectField field="Violations1" selected="True" rename="ViolationCode" size="4000" />
+            <SelectField field="ViolationDescription" selected="True" size="4000" />
+            <SelectField field="ViolationDetail" selected="True" size="4000" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="215">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="174" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Inspection ID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="InspectionId" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_DT_CREATEDT" selected="True" input="Left_" />
+                <SelectField field="Left_DT_FileName" selected="True" input="Left_" />
+                <SelectField field="Left_DT_WF_FileName" selected="True" input="Left_" />
+                <SelectField field="Left_ViolationCode" selected="True" input="Left_" />
+                <SelectField field="Left_ViolationDescription" selected="True" input="Left_" />
+                <SelectField field="Left_ViolationDetail" selected="True" input="Left_" />
+                <SelectField field="Right_InspectionSK" selected="True" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="True" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="216">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="402" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="ViolationCode" />
+            <Field field="ViolationDescription" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="ViolationCode" />
+            <Field field="ViolationDescription" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_DT_CREATEDT" selected="True" input="Left_" />
+                <SelectField field="Left_DT_FileName" selected="True" input="Left_" />
+                <SelectField field="Left_DT_WF_FileName" selected="True" input="Left_" />
+                <SelectField field="Left_ViolationDetail" selected="True" input="Left_" />
+                <SelectField field="Left_InspectionSK" selected="True" input="Left_" />
+                <SelectField field="Right_ViolationSK" selected="True" input="Right_" />
+                <SelectField field="Right_ViolationCode" selected="False" rename="Right_ViolationCode" input="Right_" />
+                <SelectField field="Right_ViolationDescription" selected="False" rename="Right_ViolationDescription" input="Right_" />
+                <SelectField field="Right_DI_CreateDate" selected="False" rename="Right_DI_CreateDate" input="Right_" />
+                <SelectField field="Right_DI_WorkflowFileName" selected="False" rename="Right_DI_WorkflowFileName" input="Right_" />
+                <SelectField field="Right_DI_WorkflowDirectory" selected="False" rename="Right_DI_WorkflowDirectory" input="Right_" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="217">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="750" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF isNull([ViolationDescription]) THEN &quot;No Violation Description Present&quot; ELSE [ViolationDescription] ENDIF" field="ViolationDescription" size="16777216" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ViolationDescription = IF isNull([ViolationDescription]) THEN "No Violation Desc...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="219">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="534" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="&quot;No Violation Memo Present&quot;" field="ViolationMemo" size="1073741823" type="V_WString" />
+            <FormulaField expression="-999" field="ViolationPoints" size="4" type="Int32" />
+            <FormulaField expression="TRIM([ViolationDetail])" field="ViolationDetail" size="4000" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ViolationMemo = "No Violation Memo Present"
+ViolationPoints = -999
+ViolationDeta...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="221">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\dhawa\AppData\Local\Temp\Engine_9980_4eb00c22fdebc8498eb22b45127aa594_\Engine_9980_9914c7163cca354aaaec3dcbf9b3a981~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="222">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="714" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ViolationMemo" selected="True" size="4000" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="220">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="869" y="269" width="158" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 220</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="218">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+            <Position x="894" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <File MaxRecords="" FileFormat="23">aka:LocalSQLServer - sa/foodinspection|||Fct_FoodInspectionViolation</File>
+              <Passwords />
+              <Disable>False</Disable>
+              <FormatSpecificOptions>
+                <TransactionMessages>False</TransactionMessages>
+                <Geometry>True</Geometry>
+                <Projection />
+                <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+                <SpatialObjSize>8000</SpatialObjSize>
+                <OutputOption>Append</OutputOption>
+                <AppendMap>
+                  <AppendMapping mode="Custom">
+                    <Field Source="DT_CREATEDT" Dest="DI_CreateDate" />
+                    <Field Source="DT_FileName" Dest="DI_WorkflowFileName" />
+                    <Field Source="DT_WF_FileName" Dest="DI_WorkflowDirectory" />
+                    <Field Source="ViolationDetail" Dest="ViolationDetail" />
+                    <Field Source="InspectionSK" Dest="InspectionSK" />
+                    <Field Source="ViolationSK" Dest="ViolationSK" />
+                    <Field Source="ViolationMemo" Dest="ViolationMemo" />
+                    <Field Source="ViolationPoints" Dest="ViolationPoints" />
+                  </AppendMapping>
+                </AppendMap>
+                <PostSQL />
+                <TransactionSize>10000</TransactionSize>
+                <TableStyle>Quoted</TableStyle>
+                <PreSQL />
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>aka:LocalSQLServer - sa/foodinspection
+Query=Fct_FoodInspectionViolation</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="193" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="Output" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="90" Connection="Output" />
+      <Destination ToolID="91" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="91" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="217" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="196" Connection="Output" />
+      <Destination ToolID="215" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="202" Connection="Output" />
+      <Destination ToolID="215" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="198" Connection="Output" />
+      <Destination ToolID="216" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="215" Connection="Join" />
+      <Destination ToolID="216" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="216" Connection="Join" />
+      <Destination ToolID="219" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="217" Connection="Output" />
+      <Destination ToolID="202" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="219" Connection="Output" />
+      <Destination ToolID="221" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="219" Connection="Output" />
+      <Destination ToolID="222" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="222" Connection="Output" />
+      <Destination ToolID="218" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago_FCT_FoodInspectionViolation_ETL</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6a5a8db1-f70f-4e18-a64f-61695453eb41" />
+      <Telemetry>
+        <PreviousWorkflowId value="61e946c2-bb9f-4eb8-819f-a750be2117f0" />
+        <OriginWorkflowId value="61e946c2-bb9f-4eb8-819f-a750be2117f0" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
