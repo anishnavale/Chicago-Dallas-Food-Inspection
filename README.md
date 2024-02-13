@@ -1,4 +1,4 @@
-#Chicago & Dallas Food Inspections
+**Chicago & Dallas Food Inspections**
 
 This is an academic project for the course DAMG 7370 - Designing Advanced Data Architectures for Business Intelligence provided by Northeastern University. 
 
