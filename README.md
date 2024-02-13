@@ -4,8 +4,6 @@ Dataset Link - [https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaur
 
 Dataset Link - https://www.dallasopendata.com/Services/Restaurant-and-Food-Establishment-Inspections-Octo/dri5-wcct/about_data
 
-Utilized Alteryx to apply ETL, data profiling and workflow management on open data with 131 attributes.
-
-Formulated dimensional model using Navicat and generated OLAP cubes ensuring SCD 4 compliance by Talend workflows.
-
-Employed Azure to facilitate data integration and visualized data trends using PowerBI.
+1) Utilized Alteryx to apply ETL, data profiling and workflow management on open data with 131 attributes.
+2) Formulated dimensional model using Navicat and generated OLAP cubes ensuring SCD 4 compliance by Talend workflows.
+3) Employed Azure to facilitate data integration and visualized data trends using PowerBI.
