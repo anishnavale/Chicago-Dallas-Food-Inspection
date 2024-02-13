@@ -1,3 +1,5 @@
+#Chicago & Dallas Food Inspections
+
 This is an academic project for the course DAMG 7370 - Designing Advanced Data Architectures for Business Intelligence provided by Northeastern University. 
 
 Dataset Link - [https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/data](https://data.cityofchicago.org/Health-Human-Services/Food-Inspections/4ijn-s7e5/about_data)
